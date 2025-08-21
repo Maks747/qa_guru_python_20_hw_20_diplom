@@ -1,4 +1,4 @@
-tv = {
+tv_shemas = {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
