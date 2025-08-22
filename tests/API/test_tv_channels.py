@@ -1,7 +1,7 @@
 import allure
 from utils.api_helper import api_request
 from jsonschema import validate
-from start.model.schemas import tv_shemas
+from start.model.schemas.tv_shemas import tv
 
 
 @allure.title("Checking tv channels")
@@ -18,4 +18,4 @@ def test_tv_channels(base_api_url):
     with allure.step('title = Телеканалы'):
         assert response.json()["title"] == "Телеканалы"
     with allure.step('Validate response schema'):
-        validate(response.json(), tv_shemas)
+        validate(response.json(), tv)
