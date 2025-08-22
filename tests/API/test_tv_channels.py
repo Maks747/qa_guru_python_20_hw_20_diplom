@@ -1,7 +1,7 @@
 import allure
 from utils.api_helper import api_request
 from jsonschema import validate
-from start.model.schemas.tv_shemas import tv
+from start.model.schemas.tv_shema import tv
 
 
 @allure.title("Checking tv channels")

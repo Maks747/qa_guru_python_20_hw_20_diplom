@@ -12739,7 +12739,7 @@ serial_description_schema = {
       ]
     },
     "budget": {
-      "type": "null"
+      "type": "string"
     },
     "cast": {
       "type": "array",
@@ -16138,7 +16138,7 @@ serial_description_schema = {
                   "type": "null"
                 },
                 "image_15x": {
-                  "type": "null"
+                  "type": "string"
                 }
               },
               "required": [
@@ -17768,7 +17768,7 @@ serial_description_schema = {
                   "type": "null"
                 },
                 "image_15x": {
-                  "type": "null"
+                  "type": "string"
                 }
               },
               "required": [
@@ -18902,7 +18902,7 @@ serial_description_schema = {
           "type": "null"
         },
         "image_15x": {
-          "type": "null"
+          "type": "string"
         }
       },
       "required": [
@@ -18998,8 +18998,8 @@ serial_description_schema = {
               "type": "object",
               "properties": {
                 "image_1x": {
-                  "type": "string"
-                },
+                "type":"string"
+              },
                 "image_15x": {
                   "type": "string"
                 }
