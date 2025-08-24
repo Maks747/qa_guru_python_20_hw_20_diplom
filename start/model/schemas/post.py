@@ -7,29 +7,215 @@ post = {
     },
     "ab": {
       "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "exp_id": {
-            "type": "integer"
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "exp_id": {
+              "type": "integer"
+            },
+            "exp_name": {
+              "type": "string"
+            },
+            "group_id": {
+              "type": "integer"
+            },
+            "group_name": {
+              "type": "string"
+            }
           },
-          "exp_name": {
-            "type": "string"
-          },
-          "group_id": {
-            "type": "integer"
-          },
-          "group_name": {
-            "type": "string"
-          }
+          "required": [
+            "exp_id",
+            "exp_name",
+            "group_id",
+            "group_name"
+          ]
         },
-        "required": [
-          "exp_id",
-          "exp_name",
-          "group_id",
-          "group_name"
-        ]
-      }
+        {
+          "type": "object",
+          "properties": {
+            "exp_id": {
+              "type": "integer"
+            },
+            "exp_name": {
+              "type": "string"
+            },
+            "group_id": {
+              "type": "integer"
+            },
+            "group_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exp_id",
+            "exp_name",
+            "group_id",
+            "group_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "exp_id": {
+              "type": "integer"
+            },
+            "exp_name": {
+              "type": "string"
+            },
+            "group_id": {
+              "type": "integer"
+            },
+            "group_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exp_id",
+            "exp_name",
+            "group_id",
+            "group_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "exp_id": {
+              "type": "integer"
+            },
+            "exp_name": {
+              "type": "string"
+            },
+            "group_id": {
+              "type": "integer"
+            },
+            "group_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exp_id",
+            "exp_name",
+            "group_id",
+            "group_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "exp_id": {
+              "type": "integer"
+            },
+            "exp_name": {
+              "type": "string"
+            },
+            "group_id": {
+              "type": "integer"
+            },
+            "group_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exp_id",
+            "exp_name",
+            "group_id",
+            "group_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "exp_id": {
+              "type": "integer"
+            },
+            "exp_name": {
+              "type": "string"
+            },
+            "group_id": {
+              "type": "integer"
+            },
+            "group_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exp_id",
+            "exp_name",
+            "group_id",
+            "group_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "exp_id": {
+              "type": "integer"
+            },
+            "exp_name": {
+              "type": "string"
+            },
+            "group_id": {
+              "type": "integer"
+            },
+            "group_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exp_id",
+            "exp_name",
+            "group_id",
+            "group_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "exp_id": {
+              "type": "integer"
+            },
+            "exp_name": {
+              "type": "string"
+            },
+            "group_id": {
+              "type": "integer"
+            },
+            "group_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exp_id",
+            "exp_name",
+            "group_id",
+            "group_name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "exp_id": {
+              "type": "integer"
+            },
+            "exp_name": {
+              "type": "string"
+            },
+            "group_id": {
+              "type": "integer"
+            },
+            "group_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "exp_id",
+            "exp_name",
+            "group_id",
+            "group_name"
+          ]
+        }
+      ]
     },
     "apple_id": {
       "type": "null"
@@ -62,38 +248,14 @@ post = {
     },
     "devices": {
       "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "last_use": {
-            "type": "integer"
-          },
-          "name": {
-            "type": "string"
-          },
-          "type": {
-            "type": "string"
-          },
-          "uid": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "last_use",
-          "name",
-          "type",
-          "uid"
-        ]
-      }
+      "items": {}
     },
     "email": {
       "type": "string"
     },
     "externals": {
       "type": "array",
-      "items": {
-        "items": {}
-      }
+      "items": {}
     },
     "facebook_id": {
       "type": "null"
@@ -115,9 +277,7 @@ post = {
         },
         "content_lang": {
           "type": "array",
-          "items": {
-            "items": {}
-          }
+          "items": {}
         },
         "interface": {
           "type": "string"
@@ -134,31 +294,10 @@ post = {
       ]
     },
     "mf_info": {
-      "type": "object",
-      "properties": {
-        "is_mf": {
-          "type": "boolean"
-        },
-        "mf_pop_up": {
-          "type": "null"
-        },
-        "to_paid_period": {
-          "type": "null"
-        },
-        "to_paid_price": {
-          "type": "null"
-        },
-        "to_trial_period": {
-          "type": "null"
-        }
-      },
-      "required": [
-        "is_mf",
-        "mf_pop_up",
-        "to_paid_period",
-        "to_paid_price",
-        "to_trial_period"
-      ]
+      "type": "object"
+    },
+    "need_credentials": {
+      "type": "boolean"
     },
     "phone": {
       "type": "string"
@@ -183,15 +322,11 @@ post = {
     },
     "subscriptions": {
       "type": "array",
-      "items": {
-        "items": {}
-      }
+      "items": {}
     },
     "tags": {
       "type": "array",
-      "items": {
-        "items": {}
-      }
+      "items": {}
     },
     "traffic_source": {
       "type": "object"
@@ -237,6 +372,7 @@ post = {
     "is_registered",
     "language",
     "mf_info",
+    "need_credentials",
     "phone",
     "pin_status",
     "profile_for_child",
