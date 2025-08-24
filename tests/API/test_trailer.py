@@ -1,7 +1,7 @@
 import allure
 from utils.api_helper import api_request
 from jsonschema import validate
-from start.model.schemas.schemas import serial_description_schema
+from start.model.schemas.trailer_shema import trailer
 
 
 @allure.title("Checking serial_description")
@@ -22,4 +22,4 @@ def test_trailer_api(base_api_url):
         assert response.json()[
                    "description"] == "Член экипажа МКС получает травму в открытом космосе. Помочь ему может только срочная операция, но провести ее в невесомости — дело из области фантастики. Сложнейшую задачу предстоит выполнить торакальному хирургу Жене. И у нее всего месяц на подготовку, но помешать героине могут не только перегрузки и отсутствие притяжения…Чем же закончится уникальная миссия?"
     with allure.step('Validate response schema'):
-        validate(response.json(), serial_description_schema)
+        validate(response.json(), trailer)
