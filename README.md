@@ -16,19 +16,29 @@ API тесты:
 *   Проверка перехода на раздел TV.
 
 # Запуск автотестов выполняется на сервере Jenkins
-Создана сборка [Ссылка на джобу](https://jenkins.autotests.cloud/job/qa_guru_python_20_hw_jenkins_14/)
-![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_14/blob/main/resources/Jenkins.PNG)
+Создана сборка [Ссылка на джобу](https://jenkins.autotests.cloud/job/qa_guru_python_20_hw_20_diplom/)
+![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/Jenkins.PNG)
 
 ### Все тесты запускаются на удаленном браузере с использованием Selenoid:
 Логин и пароль для доступа к Selenoid хранятся в переменных среды
 
-### К прогонам добавлена генерация отчетов на Allure
+### Allure-отчет
 #### Общие результаты:
-![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_14/blob/main/resources/Allure%20report.PNG)
+![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/Allure%20report.PNG)
 
 #### Список тест-кейсов
 В каждом тест-кейсе прикладываются: логи браузера; скриншот; видео прохождения теста; ресурсы страницы 
-![alt-текст] 
+![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/Список%20тест-кейсов.PNG)
+
+#### При выполнении автотестов, для тестов линкуются логи, скриншоты, html-страница и видео прохождения кейса
+![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/Логи,%20скриншоты,%20html-страница%20и%20видео%20прохождения%20кейса.PNG)
+
+### Allure TestOps
+#### Общий список всех кейсов, имеющихся в системе
+![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/Всего%20кейсов$20в$20TestOps.PNG)
+
+#### Пример dashboard с общими результатами тестирования
+![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/Дашборд.PNG)
 
 #### После прогона добавлено уведомление в telegram о прохождении тест-кейсов
-![alt-текст] 
+![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/IMG_0018.jpg)
