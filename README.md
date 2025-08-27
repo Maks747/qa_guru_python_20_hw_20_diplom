@@ -41,4 +41,4 @@ API тесты:
 ![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/Дашборд.PNG)
 
 #### После прогона добавлено уведомление в telegram о прохождении тест-кейсов
-![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/IMG_0018.jpg)
+![alt-текст] (https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/IMG_0018.jpg)
