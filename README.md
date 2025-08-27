@@ -35,7 +35,7 @@ API тесты:
 
 ### Allure TestOps
 #### Общий список всех кейсов, имеющихся в системе
-![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/Всего%20кейсов$20в$20TestOps.PNG)
+![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/%D0%92%D1%81%D0%B5%D0%B3%D0%BE%20%D0%BA%D0%B5%D0%B9%D1%81%D0%BE%D0%B2%20%D0%B2%20TestOps.PNG)
 
 #### Пример dashboard с общими результатами тестирования
 ![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/Дашборд.PNG)
