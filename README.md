@@ -24,7 +24,7 @@ API тесты:
 
 ### Allure-отчет
 #### Общие результаты:
-![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/Allure%20report.PNG)
+![alt-текст](https://github.com/Maks747/qa_guru_python_20_hw_20_diplom/blob/main/resources/Allure-Report.PNG)
 
 #### Список тест-кейсов
 В каждом тест-кейсе прикладываются: логи браузера; скриншот; видео прохождения теста; ресурсы страницы 
